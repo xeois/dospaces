@@ -21,7 +21,7 @@ class DigitalOceanSpacesConfig extends PluginConfig {
             )),
             'endpoint' => new TextboxField(array(
                 'label' => 'Endpoint URL',
-                'configuration' => array('size' => 200, 'length' => 200),
+                'configuration' => array('size' => 40, 'length' => 100),
             )),
             'access-info' => new SectionBreakField(array(
                 'label' => 'Access Information',
